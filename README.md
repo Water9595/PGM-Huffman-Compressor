@@ -27,20 +27,6 @@ To compress `test.pgm` into `test.hc`:
 To decompress `test.hc` back into a PGM file:
 `./HuffmanCompression -d test.hc testd.pgm`
 
-## Project Structure
-HuffmanCompression/
-│
-├── src/
-│   ├── HuffmanNode.h
-│   ├── HuffmanTree.h
-│   ├── PgmHandler.h
-│   ├── HuffmanCompression.cpp
-│
-├── main.cpp
-├── README.md
-├── Makefile (optional, for easy compilation)
-└── test.pgm
-
 ### File Descriptions
 - `HuffmanNode.h`: Defines the Huffman tree node structure.
 - `HuffmanTree.h`: Contains functions to build the Huffman tree and generate Huffman codes.
